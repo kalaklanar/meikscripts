@@ -10,6 +10,16 @@ My stuff will be GPL, but I may be editing other's work, so that would retain th
 
 Don't trust my code here. I try, but I don't program for a living - I sysadmin for a living.
 
+## pydora-dump-stations.py
+This will grab all your Pandora Stations and save them to .csv files (one per station). It's based on https://github.com/mcrute/pydora
+```
+python3 -m venv venv
+source ./venv/bin/activate
+pip install pydora
+pydora-configure
+./pydora-dump-stations.py -o output/
+```
+
 ## pandora-station-artists.py
 
 This parses the web page for a Pandora station (You can get this in most browsers by opening the station, select Show All, then ctl-s/cmd-s to Save Page As > Web Page, HTML Only). It prints to the console the Seeds for that Station (`> filename` to save it). You'll need the BeautifulSoup module aka "bs4" installed. Using a virtual env:
