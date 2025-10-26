@@ -10,7 +10,7 @@ My stuff will be GPL, but I may be editing other's work, so that would retain th
 
 Don't trust my code here. I try, but I don't program for a living - I sysadmin for a living.
 
-## pydora-dump-stations.py
+## pydora-export-stations.py
 This will grab all your Pandora Stations and save them to .csv files (one per station). It's based on https://github.com/mcrute/pydora
 ```
 python3 -m venv venv
